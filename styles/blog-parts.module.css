@@ -46,6 +46,7 @@
   width: 30%;
   margin: 1rem auto 0;
   border: 1px solid var(--accents-2);
+  background-color: var(--accents-2);
   color: inherit;
   font-size: 0.85rem;
   text-align: center;
