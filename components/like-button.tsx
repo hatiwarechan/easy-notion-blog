@@ -10,11 +10,13 @@ type Props = {
 
 const LikeButton = (props: Props) => {
   const [active, setActive] = useState(false)
+  const [like, setLike] = useState(props.post)
 
   const handleClick = () => {
     if (!active) {
       axios.put(`/api/like?slug=${props.slug}`, {})
       setActive(true)
+      setLike((like) => like + 1)
     }
   }
 
