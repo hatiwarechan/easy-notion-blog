@@ -5,7 +5,7 @@ import styles from '../styles/like-button.module.css'
 
 type Props = {
   slug: string
-  post: number;
+  post: string;
 }
 
 const LikeButton = (props: Props) => {
