@@ -45,9 +45,9 @@
   display: block;
   width: 30%;
   margin: 1rem auto 0;
-  border: 1px solid var(--accents-2);
-  background-color: var(--accents-2);
-  color: inherit;
+  border: 1px solid #416d91;
+  background-color: #416d91;
+  color: #fff;
   font-size: 0.85rem;
   text-align: center;
   line-height: 3rem;
