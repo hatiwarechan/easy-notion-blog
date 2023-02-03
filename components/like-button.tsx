@@ -1,9 +1,11 @@
 'use client'
 import React, { useState } from 'react';
 import axios from 'axios'
+import styles from '../styles/like-button.module.css'
 
 type Props = {
   slug: string
+  post: string;
 }
 
 const LikeButton = (props: Props) => {
@@ -17,7 +19,7 @@ const LikeButton = (props: Props) => {
   }
 
   return (
-    <button onClick={handleClick}>Like</button>
+    <button onClick={handleClick} className={styles.likeButton}>♥ {props.post ?? '0'} </button>
   )
 }
 

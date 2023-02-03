@@ -80,7 +80,7 @@ const BlogSlugPage = async ({ params: { slug } }) => {
                   id={post.Slug}
                 />
               )}
-              <LikeButton slug={post.Slug} />
+              <LikeButton slug={post.Slug} post={post.Like}/>
             </footer>
           </div>
         </div>
